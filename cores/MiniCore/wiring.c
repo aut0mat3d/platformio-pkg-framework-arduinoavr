@@ -21,7 +21,7 @@
 */
 
 #include "wiring_private.h"
-
+#error "GOTCHA!"
 // the prescaler is set so that timer0 ticks every 64 clock cycles, and the
 // the overflow handler is called every 256 ticks.
 // 24MHz: An overflow happens every 682.67 microseconds ---> 0.04167, so this results in 682 
